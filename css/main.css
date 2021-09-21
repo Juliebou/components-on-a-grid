@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 *,
@@ -29,8 +30,8 @@ header {
 
 body {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 h1 {
@@ -57,4 +58,14 @@ nav {
 ul li a {
   text-decoration: none;
   color: #fff;
+}
+
+main figure:nth-child(1) {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+main figure:nth-child(2) {
+  grid-column: 2;
+  grid-row: 2;
 }
