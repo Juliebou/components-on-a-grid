@@ -28,6 +28,7 @@ header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   display: contents;
   grid-area: header;
+  padding: 1rem;
 }
 
 body {
@@ -67,7 +68,8 @@ nav ul {
   margin-right: 1rem;
   display: flex;
   justify-content: flex-end;
-  padding: 1rem;
+  align-self: stretch;
+  padding: 0 1rem;
   gap: 1rem;
   text-decoration: underline;
   color: #fff;
@@ -92,21 +94,23 @@ figure:nth-child(1) {
   grid-area: fig1;
   grid-column: 1;
   grid-row: 2;
+  margin: 0;
 }
 
 figure:nth-child(2) {
   grid-area: fig2;
   grid-column: 2;
   grid-row: 2;
+  margin: 0;
 }
 
 figure image {
-  width: 100%;
+  /* width: 100%; */
 }
 
 figcaption h2 {
   font-family: 'Patua One', serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #30658d;
 }
