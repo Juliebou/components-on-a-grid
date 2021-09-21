@@ -29,15 +29,25 @@ header {
 
 body {
   display: grid;
-  grid-template-areas:
-    "header header"
-    "main main";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
 
 main {
-  grid-area: main;
+
 }
 
 h1 {
+  grid-column: 1;
+  grid-row: 1;
   z-index: 1;
+}
+
+h1 img {
+  width: 14rem;
+}
+
+header img {
+  grid-column: 1 / 2;
+  grid-row: 1;
 }
