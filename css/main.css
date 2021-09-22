@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: 'Georgia', serif;
+  font-family: "Georgia", serif;
 }
 
 *,
@@ -9,15 +9,6 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
-/*Typefaces: Patua One, Georgia
-Text sizes: 2rem
-Line-heights: 1.5
-Colours: #fff, #f2f1ed, #30658d, #000
-Gaps: 1rem
-Margins: 1rem
-Paddings: 1rem
-Logo width: 14rem*/
 
 img {
   width: 100%;
@@ -75,7 +66,7 @@ nav ul {
   color: #fff;
   font-size: 2rem;
   font-weight: bold;
-  font-family: "Patua One", serif;
+  font-family: "Patua One", sans-serif;
 }
 
 a {
@@ -109,7 +100,7 @@ figure image {
 }
 
 figcaption h2 {
-  font-family: 'Patua One', serif;
+  font-family: "Patua One", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   color: #30658d;
