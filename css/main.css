@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
 }
 
 *,
@@ -23,7 +23,8 @@ header {
 
 body {
   background-color: #f2f1ed;
-  margin: 1rem;
+  margin: 0;
+  padding: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
